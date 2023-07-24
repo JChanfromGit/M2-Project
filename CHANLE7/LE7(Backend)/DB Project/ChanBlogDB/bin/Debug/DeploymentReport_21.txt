@@ -1,0 +1,31 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [dbo].[Admins] (Table)
+       [dbo].[Barangay] (Table)
+       [dbo].[Barangay_Employee] (Table)
+       [dbo].[Posts_Employee] (Table)
+       [dbo].[Salary] (Table)
+       [dbo].[FK_Posts_Employee_Admins] (Foreign Key)
+       [dbo].[spAdd_Barangay_Employee] (Procedure)
+       [dbo].[spAdmin_Update] (Procedure)
+       [dbo].[spAdmins_Authenticate] (Procedure)
+       [dbo].[spAdmins_Register] (Procedure)
+       [dbo].[spDelete_Barangay_Employee] (Procedure)
+       [dbo].[spPosts_Delete] (Procedure)
+       [dbo].[spPosts_Detail] (Procedure)
+       [dbo].[spPosts_Insert] (Procedure)
+       [dbo].[spPosts_List] (Procedure)
+       [dbo].[spPosts_Update] (Procedure)
+       [dbo].[spUpdate_Barangay_Employee] (Procedure)
+
+** Supporting actions

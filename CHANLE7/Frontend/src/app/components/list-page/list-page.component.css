@@ -1,0 +1,70 @@
+/* CSS for the list container table */
+.list-container {
+  width: 100%;
+  border-collapse: collapse;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  font-family: Arial, sans-serif;
+}
+
+.list-container th,
+.list-container td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+.list-container th {
+  background-color: #f2f2f2;
+  font-weight: bold;
+}
+
+.list-container tr:hover {
+  background-color: #f9f9f9;
+}
+
+/* Style for the buttons */
+button {
+  cursor: pointer;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  color: #fff;
+  transition: background-color 0.3s;
+}
+
+button.edit-btn {
+  background-color: #007bff;
+}
+
+button.delete-btn {
+  background-color: #dc3545;
+  margin-left: 8px;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+/* Additional styles for the container */
+.list-container {
+  margin-top: 20px;
+  border-radius: 4px;
+}
+
+.header {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.employee-info {
+  font-size: 14px;
+}
+
+.employee-info a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.employee-info a:hover {
+  text-decoration: underline;
+}

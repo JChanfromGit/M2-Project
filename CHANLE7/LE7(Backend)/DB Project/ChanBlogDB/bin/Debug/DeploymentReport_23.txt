@@ -1,0 +1,24 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[Posts_Employee].[BarangayName] is being dropped, data loss could occur.
+
+** User actions
+     Alter
+       [dbo].[Posts_Employee] (Table)
+       [dbo].[spPosts_Detail] (Procedure)
+       [dbo].[spPosts_Insert] (Procedure)
+       [dbo].[spPosts_List] (Procedure)
+       [dbo].[spPosts_Update] (Procedure)
+
+** Supporting actions
+     Refresh
+       [dbo].[spPosts_Delete] (Procedure)
+
+The column [dbo].[Posts_Employee].[BarangayName] is being dropped, data loss could occur.
+

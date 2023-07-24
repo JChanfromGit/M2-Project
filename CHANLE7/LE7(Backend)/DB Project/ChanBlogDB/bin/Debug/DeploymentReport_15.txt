@@ -1,0 +1,24 @@
+﻿** Highlights
+     Tables that will be recreated with data migrated
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       The column [dbo].[Admins].[MiddleName] is being dropped, data loss could occur.
+
+** User actions
+     Alter
+       [dbo].[Admins] (Table)
+       [dbo].[spAdmins_Authenticate] (Procedure)
+     Create
+       [dbo].[spAdmins_Register] (Procedure)
+       [dbo].[spPosts_Delete] (Procedure)
+
+** Supporting actions
+     Refresh
+       [dbo].[spAdmin_Update] (Procedure)
+
+The column [dbo].[Admins].[MiddleName] is being dropped, data loss could occur.
+

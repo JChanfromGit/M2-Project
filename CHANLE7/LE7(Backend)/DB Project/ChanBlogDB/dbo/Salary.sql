@@ -1,0 +1,11 @@
+﻿CREATE TABLE [dbo].[Salary]
+(
+	[Id] INT NOT NULL PRIMARY KEY IDENTITY,
+    [BarangayName] NVARCHAR(50) NOT NULL,
+	[LastName] NVARCHAR(50) NOT NULL,
+	[FirstName] NVARCHAR(50) NOT NULL,
+	[Position] NVARCHAR(50) NOT NULL,
+	[CurrentPay] DECIMAL(18, 2) NOT NULL,
+	[TotalPay] DECIMAL(18, 2) NOT NULL,
+
+)

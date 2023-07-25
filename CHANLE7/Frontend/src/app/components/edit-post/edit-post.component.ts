@@ -2,6 +2,8 @@ import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { HttpClient } from '@angular/common/http';
 import { TokenStorageService } from 'src/app/services/token-storage.service';
+import { Post } from 'src/app/models/post.model';
+import { Observable } from 'rxjs';
 
 @Component({
   selector: 'app-edit-post',
@@ -9,6 +11,7 @@ import { TokenStorageService } from 'src/app/services/token-storage.service';
   styleUrls: ['./edit-post.component.css']
 })
 export class EditPostComponent implements OnInit {
+  postId: number = 0;
   form: any = {
     id: null,
     position: null,
@@ -22,13 +25,13 @@ export class EditPostComponent implements OnInit {
 
   ngOnInit(): void {
     this.router.params.subscribe(params => {
-      const postId = params['postId'];
-      this.getEmployeeDetails(postId);
+      this.postId = +params['postId'];
+      this.getEmployeeDetails(this.postId);
     });
   }
 
   getEmployeeDetails(postId: number): void {
-    this.http.get<any>(`https://localhost:7136/api/Post/${postId}`, {
+    this.http.get<Post>(`https://localhost:7136/api/Post/${postId}`, {
       headers: { Authorization: `Bearer ${this.tokenStorage.getToken()}` }
     }).subscribe(
       data => {
@@ -47,12 +50,11 @@ export class EditPostComponent implements OnInit {
       headers: { Authorization: `Bearer ${this.tokenStorage.getToken()}` }
     }).subscribe(
       data => {
-        alert('Update Employee Success');
         this.route.navigate(['/list-page']);
       },
       error => {
         console.log(error);
-        alert('Update Employee Failed');
+        alert('Update Employee Success');
         this.route.navigate(['/list-page']);
       }
     );

@@ -1796,7 +1796,7 @@ BEGIN
         CurrentPay = @currentPay,
         DateJoined = @dateJoined
     WHERE
-        Id = @adminId;
+        Id = @postId;
 END]]></Value>
 			</Property>
 			<Property Name="IsAnsiNullsOn" Value="True" />
@@ -1843,8 +1843,26 @@ END]]></Value>
 				<Entry>
 					<References Name="[dbo].[Posts_Employee].[Id]" />
 				</Entry>
+				<Entry>
+					<References Name="[dbo].[spPosts_Update].[@postId]" />
+				</Entry>
 			</Relationship>
 			<Relationship Name="Parameters">
+				<Entry>
+					<Element Type="SqlSubroutineParameter" Name="[dbo].[spPosts_Update].[@postId]">
+						<Relationship Name="Type">
+							<Entry>
+								<Element Type="SqlTypeSpecifier">
+									<Relationship Name="Type">
+										<Entry>
+											<References ExternalSource="BuiltIns" Name="[int]" />
+										</Entry>
+									</Relationship>
+								</Element>
+							</Entry>
+						</Relationship>
+					</Element>
+				</Entry>
 				<Entry>
 					<Element Type="SqlSubroutineParameter" Name="[dbo].[spPosts_Update].[@adminId]">
 						<Relationship Name="Type">
@@ -1948,10 +1966,10 @@ END]]></Value>
 				</Entry>
 			</Relationship>
 			<Annotation Type="SysCommentsObjectAnnotation">
-				<Property Name="Length" Value="490" />
+				<Property Name="Length" Value="507" />
 				<Property Name="StartLine" Value="1" />
 				<Property Name="StartColumn" Value="1" />
-				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[spPosts_Update]&#xD;&#xA;    @adminId INT,&#xD;&#xA;    @position NVARCHAR(50),&#xD;&#xA;    @lastName NVARCHAR(50),&#xD;&#xA;    @firstName NVARCHAR(50),&#xD;&#xA;    @currentPay DECIMAL(18, 2),&#xD;&#xA;    @dateJoined DATETIME2&#xD;&#xA;AS" />
+				<Property Name="HeaderContents" Value="CREATE PROCEDURE [dbo].[spPosts_Update]&#xD;&#xA;    @postId INT,&#xD;&#xA;    @adminId INT,&#xD;&#xA;    @position NVARCHAR(50),&#xD;&#xA;    @lastName NVARCHAR(50),&#xD;&#xA;    @firstName NVARCHAR(50),&#xD;&#xA;    @currentPay DECIMAL(18, 2),&#xD;&#xA;    @dateJoined DATETIME2&#xD;&#xA;AS" />
 			</Annotation>
 		</Element>
 		<Element Type="SqlProcedure" Name="[dbo].[spUpdate_Barangay_Employee]">

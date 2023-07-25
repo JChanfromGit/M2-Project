@@ -1,7 +1,15 @@
-<div class="add-post-container">
-  <div class="add-post-card">
-    <h2 class="add-post-title">Update Employee Form</h2>
-    <form class="add-post-form form" (ngSubmit)="onSubmit()" #f="ngForm">
+<div class="edit-post-container">
+  <div class="edit-employee-post">
+    <h2 class="edit-post-title">Update Employee Form</h2>
+    <form class="edit-employee-form form" (ngSubmit)="onSubmit()" #f="ngForm">
+      <div class="form-group">
+        <label for="id">ID</label>
+        <input type="number" id="id" name="id" [(ngModel)]="form.id" #position="ngModel" required />
+      </div>
+      <div class="form-group">
+        <label for="adminID">AdminID</label>
+        <input type="number" id="adminID" name="adminID" [(ngModel)]="form.adminID" #position="ngModel" required />
+      </div>
       <div class="form-group">
         <label for="position">Position</label>
         <input type="text" id="position" name="position" [(ngModel)]="form.position" #position="ngModel" required />

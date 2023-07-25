@@ -89,12 +89,8 @@ namespace BlogAPI.Controllers
         [Route("/api/[controller]/updateemployee/{postId}")]
         public ActionResult UpdatePost(int postId, [FromBody] PostEmployee post)
         {
-            if (postId != post.Id)
-            {
-                return BadRequest("Post ID mismatch.");
-            }
 
-            _db.UpdatePost(post);
+            _db.UpdatePost(postId, post);
 
             return Ok("Post updated.");
         }

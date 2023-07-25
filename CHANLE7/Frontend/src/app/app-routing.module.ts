@@ -18,7 +18,7 @@ const routes: Routes = [
   {path: 'add-employee', component: AddEmployeeComponent},
   {path: 'home-page', component: HomePageComponent},
   {path: 'nav-bar', component: NavBarComponent},
-  {path: 'edit-post', component: EditPostComponent}
+  {path: 'edit-post/:postId', component: EditPostComponent}
 ];
 
 @NgModule({

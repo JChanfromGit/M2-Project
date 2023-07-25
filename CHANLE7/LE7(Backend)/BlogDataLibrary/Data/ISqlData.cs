@@ -13,6 +13,6 @@ namespace BlogDataLibrary.Data
         void Register(string userName, string firstName, string lastName, string nickName, string email, string password);
         ListPostModel ShowPostsDetails(int id);
         void UpdateBarangayEmployee(BarangayEmployee barangayE);
-        void UpdatePost(PostEmployee post);
+        void UpdatePost(int postId, PostEmployee post);
     }
 }

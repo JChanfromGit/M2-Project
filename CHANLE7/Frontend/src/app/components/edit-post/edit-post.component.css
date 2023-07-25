@@ -1,0 +1,51 @@
+.edit-post-container {
+  height: 78vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.edit-employee-post {
+  background-color: #3b435c;
+  border-radius: 5px;
+  padding: 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  width: 400px;
+}
+
+.edit-post-title {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.edit-employee-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-employee-form .form-group {
+  margin-bottom: 20px;
+}
+
+.edit-employee-form .form-group label {
+  color: #fff;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.edit-employee-form .btn {
+  background-color: #00AC83;
+  color: #333;
+  font-weight: bold;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 10px;
+}
+
+.edit-employee-form .btn:hover {
+  color: #ccc;
+}

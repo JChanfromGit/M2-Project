@@ -29,7 +29,8 @@ import { EditPostComponent } from './components/edit-post/edit-post.component';
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

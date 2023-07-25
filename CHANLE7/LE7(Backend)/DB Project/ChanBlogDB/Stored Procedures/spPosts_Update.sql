@@ -1,4 +1,5 @@
 ﻿CREATE PROCEDURE [dbo].[spPosts_Update]
+    @postId INT,
     @adminId INT,
     @position NVARCHAR(50),
     @lastName NVARCHAR(50),
@@ -16,5 +17,5 @@ BEGIN
         CurrentPay = @currentPay,
         DateJoined = @dateJoined
     WHERE
-        Id = @adminId;
+        Id = @postId;
 END

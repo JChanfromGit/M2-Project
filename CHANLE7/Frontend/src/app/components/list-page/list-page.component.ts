@@ -27,7 +27,7 @@ export class ListPageComponent implements OnInit {
   }
 
   editPost(post: Post): void {
-    // this.router.navigate(['/edit-post', post.id]);
+    this.route.navigate(['/edit-post', post.id]);
   }
 
   deletePost(post: Post): void {

@@ -27,7 +27,6 @@ namespace BlogAPI.Controllers
             return Ok(posts);
         }
 
-
         [AllowAnonymous]
         [HttpGet]
         [Route("/api/[controller]/{id}")]
@@ -75,6 +74,7 @@ namespace BlogAPI.Controllers
 
             return Ok("Post created.");
         }
+
         [Authorize]
         [HttpDelete]
         [Route("/api/[controller]/deleteemployee/{postId}")]
@@ -82,6 +82,21 @@ namespace BlogAPI.Controllers
         {
             _db.DeletePost(postId);
             return Ok("Employee deleted.");
+        }
+
+        [Authorize]
+        [HttpPut]
+        [Route("/api/[controller]/updateemployee/{postId}")]
+        public ActionResult UpdatePost(int postId, [FromBody] PostEmployee post)
+        {
+            if (postId != post.Id)
+            {
+                return BadRequest("Post ID mismatch.");
+            }
+
+            _db.UpdatePost(post);
+
+            return Ok("Post updated.");
         }
     }
 }

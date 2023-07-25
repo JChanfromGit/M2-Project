@@ -11,6 +11,7 @@ import { ListPageComponent } from './components/list-page/list-page.component';
 import { AddEmployeeComponent } from './components/add-employee/add-employee.component';
 import { AboutPageComponent } from './components/about-page/about-page.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
+import { EditPostComponent } from './components/edit-post/edit-post.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
     ListPageComponent,
     AddEmployeeComponent,
     AboutPageComponent,
-    NavBarComponent
+    NavBarComponent,
+    EditPostComponent
   ],
   imports: [
     BrowserModule,

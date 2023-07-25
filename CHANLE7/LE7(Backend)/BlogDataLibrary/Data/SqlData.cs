@@ -47,7 +47,7 @@ namespace BlogDataLibrary.Data
         }
         public void UpdatePost(PostEmployee post)
         {
-            _db.SaveData("spPosts_Update", new { post.AdminId, post.Position, post.LastName, post.FirstName, post.CurrentPay, post.DateJoined }, connectionStringName, true);
+            _db.SaveData("spPosts_Update", new { adminId = post.AdminId, position = post.Position, lastName = post.LastName, firstName = post.FirstName, currentPay = post.CurrentPay, dateJoined = post.DateJoined }, connectionStringName, true);
         }
         public void DeletePost(int postId)
         {

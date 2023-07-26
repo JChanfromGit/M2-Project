@@ -8,6 +8,7 @@ import { AddEmployeeComponent } from './components/add-employee/add-employee.com
 import { HomePageComponent } from './components/home-page/home-page.component';
 import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { EditPostComponent } from './components/edit-post/edit-post.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/home-page', pathMatch: 'full' },
@@ -18,7 +19,8 @@ const routes: Routes = [
   {path: 'add-employee', component: AddEmployeeComponent},
   {path: 'home-page', component: HomePageComponent},
   {path: 'nav-bar', component: NavBarComponent},
-  {path: 'edit-post/:postId', component: EditPostComponent}
+  {path: 'edit-post/:postId', component: EditPostComponent},
+  {path: 'footer', component: FooterComponent}
 ];
 
 @NgModule({

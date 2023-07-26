@@ -1,26 +1,60 @@
-<form name="form" (ngSubmit)="onSubmit()" #f="ngForm" style="max-width: 530px; padding: 15px; margin: 0 auto; border-radius: 0.3em; background-color: #f2f2f2;">
-  <h2 style="font-family: Helvetica, sans-serif; font-size: 28px; font-weight: 600; color: #000000; margin-top: 5%; text-align: center; text-transform: uppercase; letter-spacing: 4px; margin-bottom: 30px;">REGISTRATION</h2>
+<!DOCTYPE html>
+<html>
+  <body>
+<section class="home" id="home"> 
+<form name="form" (ngSubmit)="onSubmit()" #f="ngForm" class="registration-form">
+  <h2 class="registration-title">REGISTRATION</h2>
 
-  <label for="username" style="display: block; font-size: 17px; font-weight: bold; margin-bottom: 10px;">Username</label>
-  <input type="text" name="username" [(ngModel)]="form.username" #username="ngModel" style="width: 100%; padding: 4.5px; border: 1px solid #ccc; border-radius: 4px; margin-bottom: 20px;" />
+<hr class="side">
+<br>
+  <div class="registration-inputs">
+    <div class="registration-input">
+      <label for="username" class="username-label">Username</label>
+      <input type="text" name="username" [(ngModel)]="form.username" #username="ngModel" class="username-input" />
+    </div>
 
-  <label for="firstName" style="display: block; font-size: 17px; font-weight: bold; margin-bottom: 10px;">First Name</label>
-  <input type="text" name="firstName" [(ngModel)]="form.firstName" #firstName="ngModel" style="width: 100%; padding: 4.5px; border: 1px solid #ccc; border-radius: 4px; margin-bottom: 20px;" />
+    <div class="registration-input">
+      <label for="nickName" class="nickName-label">Nickname</label>
+      <input type="text" name="nickName" [(ngModel)]="form.nickName" #nickName="ngModel" class="nickName-input" />
+    </div>
 
-  <label for="lastName" style="display: block; font-size: 17px; font-weight: bold; margin-bottom: 10px;">Last Name</label>
-  <input type="text" name="lastName" [(ngModel)]="form.lastName" #lastName="ngModel" style="width: 100%; padding: 4.5px; border: 1px solid #ccc; border-radius: 4px; margin-bottom: 20px;" />
+  </div>
 
-  <label for="nickName" style="display: block; font-size: 17px; font-weight: bold; margin-bottom: 10px;">Nickname</label>
-  <input type="text" name="nickName" [(ngModel)]="form.nickName" #nickName="ngModel" style="width: 100%; padding: 4.5px; border: 1px solid #ccc; border-radius: 4px; margin-bottom: 20px;" />
+  <div class="registration-inputs">
+    <div class="registration-input">
+      <label for="firstName" class="firstName-label">First Name</label>
+      <input type="text" name="firstName" [(ngModel)]="form.firstName" #firstName="ngModel" class="firstName-input" />
+    </div>
 
-  <label for="email" style="display: block; font-size: 17px; font-weight: bold; margin-bottom: 10px;">Email Address</label>
-  <input type="text" name="email" [(ngModel)]="form.email" #email="ngModel" style="width: 100%; padding: 4.5px; border: 1px solid #ccc; border-radius: 4px; margin-bottom: 20px;" />
+    <div class="registration-input">
+      <label for="lastName" class="lastName-label">Last Name</label>
+      <input type="text" name="lastName" [(ngModel)]="form.lastName" #lastName="ngModel" class="lastName-input" />
+    </div>
 
-  <label for="password" style="display: block; font-size: 17px; font-weight: bold; margin-bottom: 10px;">Password</label>
-  <input type="password" name="password" [(ngModel)]="form.password" #password="ngModel" style="width: 100%; padding: 4.5px; border: 1px solid #ccc; border-radius: 4px; margin-bottom: 20px;" />
+  </div>
+  <br>
 
-  <div style="text-align: center;">
-    <button type="submit" style="background-color: #3eb3bb; color: white; border: none; padding: 10px 20px; border-radius: 4px; font-size: 16px; cursor: pointer;">Submit</button>
-    <span style="text-align: center; display: block; margin-top: 15px;">Already have an account? <a routerLink="/login">Sign In</a></span>
+  <div class="emailpass">
+  <label for="email" class="email-label">Email Address</label>
+  <input type="email" name="email" [(ngModel)]="form.email" #email="ngModel" class="email-input" />
+
+  <br>
+  <br>
+  <label for="password" class="password-label">Password</label>
+  <input type="password" name="password" [(ngModel)]="form.password" #password="ngModel" class="password-input" />
+  </div>
+  <br>
+  <br>
+  <div class="registration-button-container">
+    <button type="submit" class="submit-button">Submit</button>
+    <br>
+    <br>
+    <br>
+    <p class="login-link" style="text-align: center;">Already have an account? <a routerLink="/login">Sign In</a>
+
+    </p>
   </div>
 </form>
+</section>
+</body>
+<html>

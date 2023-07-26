@@ -53,12 +53,11 @@ export class EditPostComponent implements OnInit {
     }).subscribe(
       data => {
         this.route.navigate(['/list-page']);
+        alert('Update Employee Success');
       },
       error => {
         console.log(error);
-        alert('Update Employee Success');
-        this.route.navigate(['/list-page']);
-      }
-    );
+        alert('Update Employee Unsuccessful');
+      });
   }
 }

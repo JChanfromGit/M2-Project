@@ -10,6 +10,7 @@ import { TokenStorageService } from 'src/app/services/token-storage.service';
 })
 export class AddEmployeeComponent implements OnInit {
 
+  
   form: any = {
     position: null,
     lastName: null,
@@ -28,11 +29,19 @@ export class AddEmployeeComponent implements OnInit {
 
     const {position, lastName, firstName, currentPay, dateJoined} = this.form;
 
+<<<<<<< HEAD
     this.http.post("https://localhost:7136/api/Post/addemployee", this.form, {responseType: 'text', headers: {Authorization: `Bearer ${this.tokenStorage.getToken()}`} }).subscribe(data => {
       this.route.navigate(['/list-page']);
     })
     alert('Add Employee Success');
 
+=======
+    this.http.post("https://localhost:7136/api/Post/addemployee", this.form, {responseType: 'text', headers: {Authorization: `Bearer ${this.tokenStorage.getToken()}`} 
+    }).subscribe(data => {
+      this.route.navigate(['/home-page']);
+    })
+    alert('Add Employee Success');
+>>>>>>> 9f52d35 (frontend updates)
   }
 
 }

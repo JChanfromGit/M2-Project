@@ -25,19 +25,20 @@ body{
 }
 
 .about-wrapper{
-    height: 100vh;
+    /* height: 100vh; */
+    min-height: 100%;
 }
 .about-left{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 58vh;
     color:#fff
 }
 .about-left-content > div{
     background: #12192c;
-    padding: 4rem 4rem 2.5rem 5rem;
+    padding: 4rem 3rem 0.5rem 3rem;
     text-align: center;
     border-radius: 12px 12px 0 0;
 }
@@ -86,7 +87,7 @@ body{
     background: #12192c;
     display: flex;
     justify-content: center;
-    padding: 0.8rem 0;
+    padding: 0.8rem 0 1.2rem;
     border-radius: 0 0 12px 12px;
 }
 .icons li{

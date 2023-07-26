@@ -10,7 +10,6 @@ import { HomePageComponent } from './components/home-page/home-page.component';
 import { ListPageComponent } from './components/list-page/list-page.component';
 import { AddEmployeeComponent } from './components/add-employee/add-employee.component';
 import { AboutPageComponent } from './components/about-page/about-page.component';
-import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { EditPostComponent } from './components/edit-post/edit-post.component';
 
 @NgModule({
@@ -22,8 +21,7 @@ import { EditPostComponent } from './components/edit-post/edit-post.component';
     ListPageComponent,
     AddEmployeeComponent,
     AboutPageComponent,
-    NavBarComponent,
-    EditPostComponent
+    EditPostComponent,
   ],
   imports: [
     BrowserModule,

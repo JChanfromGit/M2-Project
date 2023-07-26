@@ -46,3 +46,15 @@ C:\Files\VSC\LE7\CHANLE7\LE7(Backend)\BlogDataLibrary\obj\Debug\net6.0\BlogDataL
 C:\Files\VSC\LE7\CHANLE7\LE7(Backend)\BlogDataLibrary\obj\Debug\net6.0\refint\BlogDataLibrary.dll
 C:\Files\VSC\LE7\CHANLE7\LE7(Backend)\BlogDataLibrary\obj\Debug\net6.0\BlogDataLibrary.pdb
 C:\Files\VSC\LE7\CHANLE7\LE7(Backend)\BlogDataLibrary\obj\Debug\net6.0\ref\BlogDataLibrary.dll
+C:\Users\Gabs\source\repos\M2-Project\CHANLE7\LE7(Backend)\BlogDataLibrary\bin\Debug\net6.0\BlogDataLibrary.deps.json
+C:\Users\Gabs\source\repos\M2-Project\CHANLE7\LE7(Backend)\BlogDataLibrary\bin\Debug\net6.0\BlogDataLibrary.dll
+C:\Users\Gabs\source\repos\M2-Project\CHANLE7\LE7(Backend)\BlogDataLibrary\bin\Debug\net6.0\BlogDataLibrary.pdb
+C:\Users\Gabs\source\repos\M2-Project\CHANLE7\LE7(Backend)\BlogDataLibrary\obj\Debug\net6.0\BlogDataLibrary.csproj.AssemblyReference.cache
+C:\Users\Gabs\source\repos\M2-Project\CHANLE7\LE7(Backend)\BlogDataLibrary\obj\Debug\net6.0\BlogDataLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gabs\source\repos\M2-Project\CHANLE7\LE7(Backend)\BlogDataLibrary\obj\Debug\net6.0\BlogDataLibrary.AssemblyInfoInputs.cache
+C:\Users\Gabs\source\repos\M2-Project\CHANLE7\LE7(Backend)\BlogDataLibrary\obj\Debug\net6.0\BlogDataLibrary.AssemblyInfo.cs
+C:\Users\Gabs\source\repos\M2-Project\CHANLE7\LE7(Backend)\BlogDataLibrary\obj\Debug\net6.0\BlogDataLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Gabs\source\repos\M2-Project\CHANLE7\LE7(Backend)\BlogDataLibrary\obj\Debug\net6.0\BlogDataLibrary.dll
+C:\Users\Gabs\source\repos\M2-Project\CHANLE7\LE7(Backend)\BlogDataLibrary\obj\Debug\net6.0\refint\BlogDataLibrary.dll
+C:\Users\Gabs\source\repos\M2-Project\CHANLE7\LE7(Backend)\BlogDataLibrary\obj\Debug\net6.0\BlogDataLibrary.pdb
+C:\Users\Gabs\source\repos\M2-Project\CHANLE7\LE7(Backend)\BlogDataLibrary\obj\Debug\net6.0\ref\BlogDataLibrary.dll

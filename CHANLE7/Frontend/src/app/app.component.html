@@ -1,4 +1,63 @@
-<body>
-  <app-nav-bar></app-nav-bar>
-  <router-outlet></router-outlet>
-</body>
+<nav>
+  <div class="logo">
+    <a><img src="assets/img/Logo.png" alt="logo">BARANGAY MUZON 2</a>
+  </div>
+  
+  <ul class="menu">
+    <li>
+      <a routerLink="/home-page" routerLinkActive="active">HOME</a>
+    </li>
+    <li *ngIf="!userKey && !tokenKey">
+      <a routerLink="/register" routerLinkActive="active">REGISTER</a>
+    </li>
+    <li *ngIf="!userKey && !tokenKey">
+      <a routerLink="/login" routerLinkActive="active" >LOGIN</a>
+    </li>
+    <li class="nav-link">
+      <a routerLink="/about" routerLinkActive="active">ABOUT</a>
+    </li>
+    <li class="nav-link" *ngIf="userKey && tokenKey">
+      <a routerLink="/list-page" routerLinkActive="active">EMPLOYEE LIST</a>
+    </li>
+    <li class="nav-link" *ngIf="userKey && tokenKey">
+      <a routerLink="/add-employee" routerLinkActive="active">ADD EMPLOYEE</a>
+    </li>
+    <li class="nav-link" *ngIf="userKey && tokenKey">
+      <a routerLink="/" (click)="this.logout()" routerLinkActive="active">LOGOUT</a>
+    </li>
+  </ul>
+  <div *ngIf="userKey && tokenKey" style="color:whitesmoke; text-decoration: none; font-weight: bold;">
+    Admin ID: {{this.userKey}} is Logged In
+  </div>
+</nav>
+
+<router-outlet></router-outlet>
+
+<footer>
+        <div class="row footer footer-dark">
+            <div class="col-sm-6 col-md-4 item">
+                <h3>QUICK LINKS</h3>
+                <ul>
+                    <li><a routerLink="/home-page">HOME</a></li>
+                    <li><a routerLink="/about">ABOUT US</a></li>
+                </ul>
+            </div>
+            <div class="col-md-4 item item">
+                <h3>PROJECT TEAM</h3>
+                <ul>
+                    <li>JERRY III AQUINO</li>
+                    <li>JAMES RODLEY CHAN</li>
+                    <li>KIM CARLO GABON</li>
+                    <li>ANDREA MAY PINEDA</li>
+                </ul>
+            </div>
+            
+            <div class="col-4 item social">
+                <a href="#" target=”_blank”><i class="fab fa-facebook-square" aria-hidden="true"></i>
+                </a>
+                <a href="#" target=”_blank”><i class="fab fa-twitter-square"></i></a>    
+                <a href="#" target=”_blank”><i class="fab fa-instagram"></i></a>                       
+            </div>
+            <p class="copyright">IT128L Project © 2023  All Rights Reserved.<br>FOPI01 4Q2223</p>
+        </div>
+</footer>

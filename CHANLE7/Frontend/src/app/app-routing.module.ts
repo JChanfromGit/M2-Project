@@ -6,7 +6,6 @@ import { AboutPageComponent } from './components/about-page/about-page.component
 import { ListPageComponent } from './components/list-page/list-page.component';
 import { AddEmployeeComponent } from './components/add-employee/add-employee.component';
 import { HomePageComponent } from './components/home-page/home-page.component';
-import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { EditPostComponent } from './components/edit-post/edit-post.component';
 
 const routes: Routes = [
@@ -17,8 +16,7 @@ const routes: Routes = [
   {path: 'list-page', component: ListPageComponent},
   {path: 'add-employee', component: AddEmployeeComponent},
   {path: 'home-page', component: HomePageComponent},
-  {path: 'nav-bar', component: NavBarComponent},
-  {path: 'edit-post/:postId', component: EditPostComponent}
+  {path: 'edit-post/:postId', component: EditPostComponent},
 ];
 
 @NgModule({

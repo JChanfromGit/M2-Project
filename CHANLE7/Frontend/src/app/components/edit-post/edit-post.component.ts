@@ -11,9 +11,11 @@ import { Observable } from 'rxjs';
   styleUrls: ['./edit-post.component.css']
 })
 export class EditPostComponent implements OnInit {
+  userKey: string | null = window.sessionStorage.getItem('USER_KEY');
   postId: number = 0;
   form: any = {
     id: null,
+    adminId: this.userKey,
     position: null,
     lastName: null,
     firstName: null,

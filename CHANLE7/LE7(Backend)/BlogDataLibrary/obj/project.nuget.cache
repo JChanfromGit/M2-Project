@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Dd9Jc1ThM4IFXq8wmVqqj3TYDKbezHmmsW29NfMQAiCPA9AsSH+zc63NhxYAjWwbLB9ghP7xI37p8/tMf4egnw==",
+  "dgSpecHash": "PqN+iNo24VUON1du7gI1WZzlgTi+CvRZKX/q7evXnIyOtBlBGBmNilqZBziQ1BFGzYV1rYJOv8AMoa7GkO6PJw==",
   "success": true,
-  "projectFilePath": "C:\\Files\\VSC\\LE7\\CHANLE7\\LE7(Backend)\\BlogDataLibrary\\BlogDataLibrary.csproj",
+  "projectFilePath": "C:\\Files\\VSC\\LE8\\M2-Project\\CHANLE7\\LE7(Backend)\\BlogDataLibrary\\BlogDataLibrary.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\James Chan\\.nuget\\packages\\dapper\\1.60.6\\dapper.1.60.6.nupkg.sha512",
     "C:\\Users\\James Chan\\.nuget\\packages\\microsoft.extensions.configuration\\6.0.0\\microsoft.extensions.configuration.6.0.0.nupkg.sha512",

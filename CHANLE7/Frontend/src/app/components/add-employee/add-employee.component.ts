@@ -29,9 +29,9 @@ export class AddEmployeeComponent implements OnInit {
     const {position, lastName, firstName, currentPay, dateJoined} = this.form;
 
     this.http.post("https://localhost:7136/api/Post/addemployee", this.form, {responseType: 'text', headers: {Authorization: `Bearer ${this.tokenStorage.getToken()}`} }).subscribe(data => {
-      alert('Add Employee Success');
       this.route.navigate(['/list-page']);
     })
+    alert('Add Employee Success');
 
   }
 

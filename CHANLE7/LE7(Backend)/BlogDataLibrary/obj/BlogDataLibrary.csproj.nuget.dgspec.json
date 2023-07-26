@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Files\\VSC\\LE7\\CHANLE7\\LE7(Backend)\\BlogDataLibrary\\BlogDataLibrary.csproj": {}
+    "C:\\Files\\VSC\\LE8\\M2-Project\\CHANLE7\\LE7(Backend)\\BlogDataLibrary\\BlogDataLibrary.csproj": {}
   },
   "projects": {
-    "C:\\Files\\VSC\\LE7\\CHANLE7\\LE7(Backend)\\BlogDataLibrary\\BlogDataLibrary.csproj": {
+    "C:\\Files\\VSC\\LE8\\M2-Project\\CHANLE7\\LE7(Backend)\\BlogDataLibrary\\BlogDataLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Files\\VSC\\LE7\\CHANLE7\\LE7(Backend)\\BlogDataLibrary\\BlogDataLibrary.csproj",
+        "projectUniqueName": "C:\\Files\\VSC\\LE8\\M2-Project\\CHANLE7\\LE7(Backend)\\BlogDataLibrary\\BlogDataLibrary.csproj",
         "projectName": "BlogDataLibrary",
-        "projectPath": "C:\\Files\\VSC\\LE7\\CHANLE7\\LE7(Backend)\\BlogDataLibrary\\BlogDataLibrary.csproj",
+        "projectPath": "C:\\Files\\VSC\\LE8\\M2-Project\\CHANLE7\\LE7(Backend)\\BlogDataLibrary\\BlogDataLibrary.csproj",
         "packagesPath": "C:\\Users\\James Chan\\.nuget\\packages\\",
-        "outputPath": "C:\\Files\\VSC\\LE7\\CHANLE7\\LE7(Backend)\\BlogDataLibrary\\obj\\",
+        "outputPath": "C:\\Files\\VSC\\LE8\\M2-Project\\CHANLE7\\LE7(Backend)\\BlogDataLibrary\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\James Chan\\AppData\\Roaming\\NuGet\\NuGet.Config",

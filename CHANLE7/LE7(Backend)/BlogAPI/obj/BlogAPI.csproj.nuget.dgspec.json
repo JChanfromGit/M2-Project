@@ -1,20 +1,34 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Files\\VSC\\LE7\\CHANLE7\\LE7(Backend)\\BlogAPI\\BlogAPI.csproj": {}
+<<<<<<< HEAD
+    "C:\\Files\\VSC\\LE8\\M2-Project\\CHANLE7\\LE7(Backend)\\BlogAPI\\BlogAPI.csproj": {}
   },
   "projects": {
-    "C:\\Files\\VSC\\LE7\\CHANLE7\\LE7(Backend)\\BlogAPI\\BlogAPI.csproj": {
+    "C:\\Files\\VSC\\LE8\\M2-Project\\CHANLE7\\LE7(Backend)\\BlogAPI\\BlogAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Files\\VSC\\LE7\\CHANLE7\\LE7(Backend)\\BlogAPI\\BlogAPI.csproj",
+        "projectUniqueName": "C:\\Files\\VSC\\LE8\\M2-Project\\CHANLE7\\LE7(Backend)\\BlogAPI\\BlogAPI.csproj",
         "projectName": "BlogAPI",
-        "projectPath": "C:\\Files\\VSC\\LE7\\CHANLE7\\LE7(Backend)\\BlogAPI\\BlogAPI.csproj",
+        "projectPath": "C:\\Files\\VSC\\LE8\\M2-Project\\CHANLE7\\LE7(Backend)\\BlogAPI\\BlogAPI.csproj",
         "packagesPath": "C:\\Users\\James Chan\\.nuget\\packages\\",
-        "outputPath": "C:\\Files\\VSC\\LE7\\CHANLE7\\LE7(Backend)\\BlogAPI\\obj\\",
+        "outputPath": "C:\\Files\\VSC\\LE8\\M2-Project\\CHANLE7\\LE7(Backend)\\BlogAPI\\obj\\",
+=======
+    "C:\\Users\\ammpi\\Documents\\GitHub\\M2-Project\\CHANLE7\\LE7(Backend)\\BlogAPI\\BlogAPI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\ammpi\\Documents\\GitHub\\M2-Project\\CHANLE7\\LE7(Backend)\\BlogAPI\\BlogAPI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ammpi\\Documents\\GitHub\\M2-Project\\CHANLE7\\LE7(Backend)\\BlogAPI\\BlogAPI.csproj",
+        "projectName": "BlogAPI",
+        "projectPath": "C:\\Users\\ammpi\\Documents\\GitHub\\M2-Project\\CHANLE7\\LE7(Backend)\\BlogAPI\\BlogAPI.csproj",
+        "packagesPath": "C:\\Users\\ammpi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ammpi\\Documents\\GitHub\\M2-Project\\CHANLE7\\LE7(Backend)\\BlogAPI\\obj\\",
+>>>>>>> 9f52d35 (frontend updates)
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\James Chan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ammpi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,8 +43,13 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Files\\VSC\\LE7\\CHANLE7\\LE7(Backend)\\BlogDataLibrary\\BlogDataLibrary.csproj": {
-                "projectPath": "C:\\Files\\VSC\\LE7\\CHANLE7\\LE7(Backend)\\BlogDataLibrary\\BlogDataLibrary.csproj"
+<<<<<<< HEAD
+              "C:\\Files\\VSC\\LE8\\M2-Project\\CHANLE7\\LE7(Backend)\\BlogDataLibrary\\BlogDataLibrary.csproj": {
+                "projectPath": "C:\\Files\\VSC\\LE8\\M2-Project\\CHANLE7\\LE7(Backend)\\BlogDataLibrary\\BlogDataLibrary.csproj"
+=======
+              "C:\\Users\\ammpi\\Documents\\GitHub\\M2-Project\\CHANLE7\\LE7(Backend)\\BlogDataLibrary\\BlogDataLibrary.csproj": {
+                "projectPath": "C:\\Users\\ammpi\\Documents\\GitHub\\M2-Project\\CHANLE7\\LE7(Backend)\\BlogDataLibrary\\BlogDataLibrary.csproj"
+>>>>>>> 9f52d35 (frontend updates)
               }
             }
           }
@@ -85,17 +104,28 @@
         }
       }
     },
-    "C:\\Files\\VSC\\LE7\\CHANLE7\\LE7(Backend)\\BlogDataLibrary\\BlogDataLibrary.csproj": {
+<<<<<<< HEAD
+    "C:\\Files\\VSC\\LE8\\M2-Project\\CHANLE7\\LE7(Backend)\\BlogDataLibrary\\BlogDataLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Files\\VSC\\LE7\\CHANLE7\\LE7(Backend)\\BlogDataLibrary\\BlogDataLibrary.csproj",
+        "projectUniqueName": "C:\\Files\\VSC\\LE8\\M2-Project\\CHANLE7\\LE7(Backend)\\BlogDataLibrary\\BlogDataLibrary.csproj",
         "projectName": "BlogDataLibrary",
-        "projectPath": "C:\\Files\\VSC\\LE7\\CHANLE7\\LE7(Backend)\\BlogDataLibrary\\BlogDataLibrary.csproj",
+        "projectPath": "C:\\Files\\VSC\\LE8\\M2-Project\\CHANLE7\\LE7(Backend)\\BlogDataLibrary\\BlogDataLibrary.csproj",
         "packagesPath": "C:\\Users\\James Chan\\.nuget\\packages\\",
-        "outputPath": "C:\\Files\\VSC\\LE7\\CHANLE7\\LE7(Backend)\\BlogDataLibrary\\obj\\",
+        "outputPath": "C:\\Files\\VSC\\LE8\\M2-Project\\CHANLE7\\LE7(Backend)\\BlogDataLibrary\\obj\\",
+=======
+    "C:\\Users\\ammpi\\Documents\\GitHub\\M2-Project\\CHANLE7\\LE7(Backend)\\BlogDataLibrary\\BlogDataLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\ammpi\\Documents\\GitHub\\M2-Project\\CHANLE7\\LE7(Backend)\\BlogDataLibrary\\BlogDataLibrary.csproj",
+        "projectName": "BlogDataLibrary",
+        "projectPath": "C:\\Users\\ammpi\\Documents\\GitHub\\M2-Project\\CHANLE7\\LE7(Backend)\\BlogDataLibrary\\BlogDataLibrary.csproj",
+        "packagesPath": "C:\\Users\\ammpi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ammpi\\Documents\\GitHub\\M2-Project\\CHANLE7\\LE7(Backend)\\BlogDataLibrary\\obj\\",
+>>>>>>> 9f52d35 (frontend updates)
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\James Chan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ammpi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

@@ -8,14 +8,14 @@
       <li>
         <a routerLink="/home-page" routerLinkActive="active">HOME</a>
       </li>
+      <li class="nav-link">
+        <a routerLink="/about" routerLinkActive="active">ABOUT</a>
+      </li>
       <li *ngIf="!userKey && !tokenKey">
         <a routerLink="/register" routerLinkActive="active">REGISTER</a>
       </li>
       <li *ngIf="!userKey && !tokenKey">
         <a routerLink="/login" routerLinkActive="active" >LOGIN</a>
-      </li>
-      <li class="nav-link">
-        <a routerLink="/about" routerLinkActive="active">ABOUT</a>
       </li>
       <li class="nav-link" *ngIf="userKey && tokenKey">
         <a routerLink="/list-page" routerLinkActive="active">EMPLOYEE LIST</a>

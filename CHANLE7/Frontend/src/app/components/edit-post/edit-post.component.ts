@@ -11,9 +11,11 @@ import { Observable } from 'rxjs';
   styleUrls: ['./edit-post.component.css']
 })
 export class EditPostComponent implements OnInit {
+  userKey: string | null = window.sessionStorage.getItem('USER_KEY');
   postId: number = 0;
   form: any = {
     id: null,
+    adminId: this.userKey,
     position: null,
     lastName: null,
     firstName: null,
@@ -51,12 +53,11 @@ export class EditPostComponent implements OnInit {
     }).subscribe(
       data => {
         this.route.navigate(['/list-page']);
+        alert('Update Employee Success');
       },
       error => {
         console.log(error);
-        alert('Update Employee Success');
-        this.route.navigate(['/list-page']);
-      }
-    );
+        alert('Update Employee Unsuccessful');
+      });
   }
 }

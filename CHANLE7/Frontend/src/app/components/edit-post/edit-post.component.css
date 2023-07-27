@@ -1,40 +1,63 @@
-.edit-post-container {
-  height: 78vh;
-  display: flex;
-  justify-content: center;
+.home{
   align-items: center;
+  min-height: 100vh;
+  background-color: #1D335E;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position:center;
+  padding:20px;
+
 }
 
-.edit-employee-post {
-  background-color: #3b435c;
-  border-radius: 5px;
-  padding: 30px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  width: 400px;
+
+.form-container {
+  border-radius: 12px;
+  max-width: 500px;
+  margin:  40px auto 50px;
+  background-color: #ffffff;
+  box-shadow: 5px 4px 8px 6px rgba(0, 0, 0, 0.2);
+  padding:50px;
 }
 
-.edit-post-title {
-  color: #fff;
+.form-container label{
+  display: block;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.title {
   text-align: center;
+  font-size: 3.5rem;
+  font-weight: 750;
+  color:#FCC419;
+  text-shadow: 2px 2px 2px black;
+  margin-top: 0px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.side {
+  position: relative;
+  top: 5px;
+  border: none;
+  height: 3px;
+  background: black;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+
+.form-group {
   margin-bottom: 20px;
 }
 
-.edit-employee-form {
-  display: flex;
-  flex-direction: column;
-}
-
-.edit-employee-form .form-group {
-  margin-bottom: 20px;
-}
-
-.edit-employee-form .form-group label {
-  color: #fff;
+.form-group label {
+  color: #000000;
   display: block;
   margin-bottom: 5px;
 }
 
-.edit-employee-form .btn {
+.add-post-form .btn {
   background-color: #00AC83;
   color: #333;
   font-weight: bold;
@@ -46,6 +69,11 @@
   margin-bottom: 10px;
 }
 
-.edit-employee-form .btn:hover {
+.add-post-form .btn:hover {
   color: #ccc;
+}
+
+button {
+  width:100px;
+  margin-right:10px;
 }

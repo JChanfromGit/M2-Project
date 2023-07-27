@@ -6,147 +6,103 @@
     margin: 0;
     box-sizing: border-box;
 }
+
 body{
-    font-family: 'Poppins', sans-serif;
-}
-.about-header {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #12192c;
-  height: 80px;
+  background-color: #f3f2f1;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+    
 }
 
-.about-header h1 {
-  color: #fff;
-  font-size: 2rem; /* You can adjust the font size as needed */
-  font-weight: 600; /* You can change the font weight as well, e.g., 600 */
-  text-transform: uppercase;
+.home{
+    align-items: center;
+    min-height: 80vh;
+    background-color: #1D335E;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position:center;
+    padding:20px;
+    
 }
 
-.about-wrapper{
-    height: 100vh;
+.home .content{
+    padding-bottom: 20px;
+    margin-left:100px;
+    margin-right:100px;
+    line-height: 20px;
 }
-.about-left{
+
+.home .content h3{
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 800;
+    color:#FCC419;
+    text-shadow: 2px 2px 5px black;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-bottom:10px;
+  }
+
+.about-us-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+  
+  .about-box {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: 100vh;
-    color:#fff
-}
-.about-left-content > div{
-    background: #12192c;
-    padding: 4rem 4rem 2.5rem 5rem;
-    text-align: center;
-    border-radius: 12px 12px 0 0;
-}
-.about-left-content{
-    box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
-    -webkit-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
-    -moz-box-shadow: 0px 0px 18px -1px rgba(0, 0, 0, 0.39);
+    padding: 20px;
+    width: 300px;
+    background-color: #fff;
     border-radius: 12px;
-    width:80%;
-}
-.about-img img{
-    display: block;
-    width: 200px;
-}
-.about-img{
-    width: 200px;
-    height: 200px;
-    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .about-box img {
+    width: 150px;
+    height: 150px;
     border-radius: 50%;
-    transition: all 0.5s ease-in-out;
-}
-.shadow{
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 50%;
-    width: 200px;
-    height: 200px;
-}
-
-
-
-.about-left-content h2{
-    font-size: 1rem;
-    margin: 2.2rem 0 0.6rem 0;
-    line-height: 1.0;
-    padding-bottom: 1rem;
-    border-bottom: 2px solid #B721FF;
-}
-.about-left-content h3{
-    text-transform: uppercase;
-    font-weight: 300;
-    letter-spacing: 5px;
-    margin-top: 1.2rem;
-}
-.icons{
-    background: #12192c;
-    display: flex;
-    justify-content: center;
-    padding: 0.8rem 0;
-    border-radius: 0 0 12px 12px;
-}
-.icons li{
-    list-style-type: none;
-    background: #B721FF;
-    color: #fff;
-    width: 40px;
-    height: 40px;
-    margin: 0 0.5rem;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .about-box h2 {
     font-size: 1.2rem;
-    cursor: pointer;
-    transition: all 0.5s ease-in-out;
-}
-.icons li:hover{
-    background: #edffec;
-    color: #000;
-}
-.about-right{
-    background: #12192c;
-    height: 100vh;
+    margin: 0;
+  }
+  
+  .about-box p {
+    font-size: 1rem;
+    color: #777;
+    margin: 0;
+  }
+
+  .social-icons {
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    padding: 0 5rem;
-    text-align: center;
-    color:#fff
-}
-.about-btns{
-    display: flex;
-    margin: 2rem 0;
-}
-.btn.btn-pink{
-    background: #B721FF;
-    color: #fff;
-    border-color: #B721FF;
-    transition: all 0.5s ease-in-out;
-}
-.btn.btn-pink:hover{
-    background: transparent;
-    border-color: #fff;
-    color: #fff;
-}
-.btn.btn-white{
-    transition: all 0.5s ease-in-out;
-}
-.btn.btn-white:hover{
-    background: #B721FF;
-    border-color: #B721FF;
-    color: #fff;
-}
-.about-para p{
-    font-weight: 300;
-    padding: 0.5rem;
-    opacity: 0.8;
-}
+    margin-top: 10px;
+  }
+  
+  .social-icons a {
+    color: #1D335E;
+    font-size: 20px;
+    margin: 0 5px;
+    text-decoration: none;
+  }
+  
+  .social-icons a:hover {
+    color: #32559c; 
+  }
+
+
 
 @media screen and (min-width: 992px){
     .about-wrapper{

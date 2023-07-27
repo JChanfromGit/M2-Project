@@ -46,3 +46,30 @@ C:\Files\VSC\LE7\CHANLE7\LE7(Backend)\BlogDataLibrary\obj\Debug\net6.0\BlogDataL
 C:\Files\VSC\LE7\CHANLE7\LE7(Backend)\BlogDataLibrary\obj\Debug\net6.0\refint\BlogDataLibrary.dll
 C:\Files\VSC\LE7\CHANLE7\LE7(Backend)\BlogDataLibrary\obj\Debug\net6.0\BlogDataLibrary.pdb
 C:\Files\VSC\LE7\CHANLE7\LE7(Backend)\BlogDataLibrary\obj\Debug\net6.0\ref\BlogDataLibrary.dll
+<<<<<<< HEAD
+C:\Files\VSC\LE8\M2-Project\CHANLE7\LE7(Backend)\BlogDataLibrary\bin\Debug\net6.0\BlogDataLibrary.deps.json
+C:\Files\VSC\LE8\M2-Project\CHANLE7\LE7(Backend)\BlogDataLibrary\bin\Debug\net6.0\BlogDataLibrary.dll
+C:\Files\VSC\LE8\M2-Project\CHANLE7\LE7(Backend)\BlogDataLibrary\bin\Debug\net6.0\BlogDataLibrary.pdb
+C:\Files\VSC\LE8\M2-Project\CHANLE7\LE7(Backend)\BlogDataLibrary\obj\Debug\net6.0\BlogDataLibrary.csproj.AssemblyReference.cache
+C:\Files\VSC\LE8\M2-Project\CHANLE7\LE7(Backend)\BlogDataLibrary\obj\Debug\net6.0\BlogDataLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Files\VSC\LE8\M2-Project\CHANLE7\LE7(Backend)\BlogDataLibrary\obj\Debug\net6.0\BlogDataLibrary.AssemblyInfoInputs.cache
+C:\Files\VSC\LE8\M2-Project\CHANLE7\LE7(Backend)\BlogDataLibrary\obj\Debug\net6.0\BlogDataLibrary.AssemblyInfo.cs
+C:\Files\VSC\LE8\M2-Project\CHANLE7\LE7(Backend)\BlogDataLibrary\obj\Debug\net6.0\BlogDataLibrary.csproj.CoreCompileInputs.cache
+C:\Files\VSC\LE8\M2-Project\CHANLE7\LE7(Backend)\BlogDataLibrary\obj\Debug\net6.0\BlogDataLibrary.dll
+C:\Files\VSC\LE8\M2-Project\CHANLE7\LE7(Backend)\BlogDataLibrary\obj\Debug\net6.0\refint\BlogDataLibrary.dll
+C:\Files\VSC\LE8\M2-Project\CHANLE7\LE7(Backend)\BlogDataLibrary\obj\Debug\net6.0\BlogDataLibrary.pdb
+C:\Files\VSC\LE8\M2-Project\CHANLE7\LE7(Backend)\BlogDataLibrary\obj\Debug\net6.0\ref\BlogDataLibrary.dll
+=======
+C:\Users\ammpi\Documents\GitHub\M2-Project\CHANLE7\LE7(Backend)\BlogDataLibrary\bin\Debug\net6.0\BlogDataLibrary.deps.json
+C:\Users\ammpi\Documents\GitHub\M2-Project\CHANLE7\LE7(Backend)\BlogDataLibrary\bin\Debug\net6.0\BlogDataLibrary.dll
+C:\Users\ammpi\Documents\GitHub\M2-Project\CHANLE7\LE7(Backend)\BlogDataLibrary\bin\Debug\net6.0\BlogDataLibrary.pdb
+C:\Users\ammpi\Documents\GitHub\M2-Project\CHANLE7\LE7(Backend)\BlogDataLibrary\obj\Debug\net6.0\BlogDataLibrary.csproj.AssemblyReference.cache
+C:\Users\ammpi\Documents\GitHub\M2-Project\CHANLE7\LE7(Backend)\BlogDataLibrary\obj\Debug\net6.0\BlogDataLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ammpi\Documents\GitHub\M2-Project\CHANLE7\LE7(Backend)\BlogDataLibrary\obj\Debug\net6.0\BlogDataLibrary.AssemblyInfoInputs.cache
+C:\Users\ammpi\Documents\GitHub\M2-Project\CHANLE7\LE7(Backend)\BlogDataLibrary\obj\Debug\net6.0\BlogDataLibrary.AssemblyInfo.cs
+C:\Users\ammpi\Documents\GitHub\M2-Project\CHANLE7\LE7(Backend)\BlogDataLibrary\obj\Debug\net6.0\BlogDataLibrary.csproj.CoreCompileInputs.cache
+C:\Users\ammpi\Documents\GitHub\M2-Project\CHANLE7\LE7(Backend)\BlogDataLibrary\obj\Debug\net6.0\BlogDataLibrary.dll
+C:\Users\ammpi\Documents\GitHub\M2-Project\CHANLE7\LE7(Backend)\BlogDataLibrary\obj\Debug\net6.0\refint\BlogDataLibrary.dll
+C:\Users\ammpi\Documents\GitHub\M2-Project\CHANLE7\LE7(Backend)\BlogDataLibrary\obj\Debug\net6.0\BlogDataLibrary.pdb
+C:\Users\ammpi\Documents\GitHub\M2-Project\CHANLE7\LE7(Backend)\BlogDataLibrary\obj\Debug\net6.0\ref\BlogDataLibrary.dll
+>>>>>>> 9f52d35 (frontend updates)

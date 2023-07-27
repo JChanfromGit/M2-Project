@@ -15,7 +15,6 @@ export class EditPostComponent implements OnInit {
   postId: number = 0;
   form: any = {
     id: null,
-    adminId: this.userKey,
     position: null,
     lastName: null,
     firstName: null,

@@ -1,27 +1,41 @@
-<table class="list-container">
-  <thead>
-    <tr>
-      <th class="header">ID</th>
-      <th class="header">Position</th>
-      <th class="header">Last Name</th>
-      <th class="header">First Name</th>
-      <th class="header">Current Pay</th>
-      <th class="header">Date Joined</th>
-      <th class="header">Actions</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr *ngFor="let post of forms; let i = index">
-      <td class="data">{{ post?.id }}</td>
-      <td class="employee-info">{{ post?.position }}</td>
-      <td class="employee-info">{{ post?.lastName }}</td>
-      <td class="employee-info">{{ post?.firstName }}</td>
-      <td class="employee-info">{{ post?.currentPay }}</td>
-      <td class="employee-info">{{ post?.dateJoined }}</td>
-      <td class="employee-info">
-        <button class="edit-btn" (click)="editPost(post)">EDIT</button>
-        <button class="delete-btn" (click)="this.deletePost(post)" routerLinkActive="active">DELETE</button>
-      </td>
-    </tr>
-  </tbody>
-</table>
+<body>
+
+
+  <section class="home" id="home">
+    <div class="content">
+      <h3>EMPLOYEE LIST</h3>
+    </div>
+    <div class="table-container">
+    <table class="list-container">
+      <thead>
+        <tr>
+          <th class="header">ID</th>
+          <th class="header">POSITION</th>
+          <th class="header">LAST NAME</th>
+          <th class="header">FIRST NAME</th>
+          <th class="header">CURRENT PAY</th>
+          <th class="header">DATE JOINED</th>
+          <th class="header">ACTIONS</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let post of forms; index as i">
+          <td class="data">{{i + 1}}</td>
+          <td class="employee-info">{{ post?.position }}</td>
+          <td class="employee-info">{{ post?.lastName }}</td>
+          <td class="employee-info">{{ post?.firstName }}</td>
+          <td class="employee-info">{{ post?.currentPay }}</td>
+          <td class="employee-info">{{ post?.dateJoined }}</td>
+          <td class="employee-info">
+            <button class="edit-btn" (click)="editPost(post)"><i class="fas fa-edit"></i> EDIT</button>
+            <button class="delete-btn" (click)="this.deletePost(post)" routerLinkActive="active"> <i class="fas fa-trash-alt"></i> DELETE</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    </div>
+
+    </section>
+
+
+</body>

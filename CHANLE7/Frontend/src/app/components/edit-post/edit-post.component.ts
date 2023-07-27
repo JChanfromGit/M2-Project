@@ -45,18 +45,22 @@ export class EditPostComponent implements OnInit {
 
   onSubmit(): void {
     const { id, position, lastName, firstName, currentPay, dateJoined } = this.form;
-
-    this.http.put(`https://localhost:7136/api/Post/updateemployee/${id}`, this.form, {
-      headers: { Authorization: `Bearer ${this.tokenStorage.getToken()}` }
-    }).subscribe(
+    
+    const token = this.tokenStorage.getToken()
+    console.log("Token: ", token)
+    if(token){
+      this.http.put<any>(`https://localhost:7136/api/Post/updateemployee/${id}`, this.form, {
+      headers: { Authorization: `Bearer ${this.tokenStorage.getToken()}` } }).subscribe(
       data => {
         this.route.navigate(['/list-page']);
       },
       error => {
         console.log(error);
-        alert('Update Employee Success');
-        this.route.navigate(['/list-page']);
+        alert('Error');
       }
     );
+    }
+
+    
   }
 }

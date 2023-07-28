@@ -92,7 +92,7 @@ namespace BlogAPI.Controllers
 
             _db.UpdatePost(postId, post);
 
-            return Ok("Post updated.");
+            return Ok();
         }
     }
 }
